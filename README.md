@@ -1,31 +1,33 @@
 <h1 align="center">Hi, I'm Hamza Qodia (BMB)</h1>
-<h3 align="center">Cybersecurity Enthusiast & Python Developer from Morocco</h3>
+<h3 align="center">Cybersecurity Researcher, Reverse Engineer & Python Developer from Morocco</h3>
 
 ---
 
 ### About Me
 
-- Building practical security tooling, web applications, and automated vulnerability verification scripts in **Python**.
+- Building zero-dependency **Android Reverse Engineering tools**, **Network Reconnaissance CLIs**, and **Security-Audited Web Applications** in **Python**.
 - Holder of a **Baccalaureate in Physical Sciences**, currently pursuing higher education in **Management Studies**.
-- Focused on **Network Reconnaissance**, **Passive DNS Intelligence**, **Web Application Security (`RBAC` & `IDOR`)**, and **Penetration Testing**.
+- Focused on **Mobile AppSec (`DEX` / `Smali` / `AXML`)**, **Network & Passive-DNS Intelligence**, **Web Authorization Auditing (`RBAC` & `IDOR`)**, and **Bug Bounty Hunting**.
 
 ---
 
 ### Featured Projects
 
-| Project | Category | Tech Stack | Highlights |
+| Project | Domain | Tech Stack | Highlights |
 | :--- | :--- | :--- | :--- |
-| **[DNSQODI](https://github.com/hamzaqodia444-droid/DNSQODI)** | Recon & Threat Intelligence CLI | `Python 3.10+`, `AsyncIO`, `dnspython`, `httpx`, `Rich`, `Pydantic`, `Pytest` | Concurrent active DNS resolver, automated SPF/mail/web infrastructure analyzer, and passive DNS history engine integrated with SecurityTrails API (`--json` & interactive Rich tables). |
-| **[KS-hospital](https://github.com/hamzaqodia444-droid/KS-hospital)** | Full-Stack Web App & AppSec Lab | `FastAPI`, `SQLAlchemy`, `JWT`, `Bcrypt`, `HTML/CSS/JS` | Multi-role hospital management platform (`Admin`, `Doctor`, `Nurse`, `Patient`) across **14 clinical & operational modules**, complete with automated **RBAC** & **IDOR** security audit scripts. |
+| **[Dagosa](https://github.com/hamzaqodia444-droid/Dagosa)** | Android Reverse Engineering | `Pure Python 3.10+`, `Dalvik Bytecode`, `Binary AXML` | Zero-dependency **APK/XAPK full-project decompiler**, binary `AndroidManifest.xml` decoder, and multi-DEX **Dalvik-to-Smali disassembler** with switch/array payload support and `Zip-Slip` protection. |
+| **[Sandi](https://github.com/hamzaqodia444-droid/Sandi)** | Bytecode Assembler & Compiler | `Pure Python 3.10+`, `Smali AST`, `DEX 035`, `Pytest` | Deterministic **`Smali → DEX 035` assembler**, `vN`/`pN` register allocator, branch offset resolver, and **APK packager/signer** verified round-trip with Dagosa. |
+| **[DNSQODI](https://github.com/hamzaqodia444-droid/DNSQODI)** | Recon & Threat Intelligence | `Python 3.10+`, `AsyncIO`, `dnspython`, `httpx`, `Rich`, `Pydantic` | Concurrent active DNS resolver, automated SPF/mail/web infrastructure classifier, and passive DNS history engine integrated with SecurityTrails API (`--json` & interactive Rich tables). |
+| **[KS-hospital](https://github.com/hamzaqodia444-droid/KS-hospital)** | Full-Stack Web & AppSec Lab | `FastAPI`, `SQLAlchemy`, `JWT`, `Bcrypt`, `HTML/CSS/JS` | Multi-role hospital management platform (`Admin`, `Doctor`, `Nurse`, `Patient`) across **14 clinical & operational modules**, complete with automated **RBAC** & **IDOR** security audit scripts. |
 
 ---
 
 ### Tech Stack & Security Environment
 
-- **Languages & Frameworks:** Python (`FastAPI`, `SQLAlchemy`, `AsyncIO`, `Pydantic`, `Pytest`), Bash, SQL, HTML5, CSS3, JavaScript
-- **Operating Systems & Labs:** Kali Linux, Termux, Kali NetHunter
-- **Security Domains:** DNS & Network Reconnaissance, Web Authorization Auditing (`RBAC` / `IDOR`), Cryptography & Authentication (`JWT` / `Bcrypt`), Vulnerability Assessment
-- **Security Tooling:** Custom Python CLI Tooling (`DNSQODI`), Metasploit, Aircrack-ng, Git & GitHub
+- **Languages & Frameworks:** Python (`FastAPI`, `AsyncIO`, `SQLAlchemy`, `Pydantic`, `Pytest`), Smali / Dalvik Bytecode, Bash, SQL, HTML5, CSS3, JavaScript
+- **Operating Systems & Labs:** Kali Linux, Termux, Kali NetHunter (`ARM64`)
+- **Security Domains:** Android Reverse Engineering (`APK`/`XAPK`/`DEX`/`AXML`), DNS & Attack-Surface Reconnaissance, Web Authorization Auditing (`RBAC` / `IDOR`), Bug Bounty Hunting
+- **Security Tooling:** Custom Python Tooling (`Dagosa`, `Sandi`, `DNSQODI`), Burp Suite, Caido, Nuclei, Metasploit, Aircrack-ng, Git & GitHub
 
 ---
 
